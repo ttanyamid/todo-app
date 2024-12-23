@@ -1,0 +1,85 @@
+.dnd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-buttons {
+  margin: 20px 0;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.column {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 30%;
+  padding: 10px;
+  margin: 0 10px;
+  min-height: 300px;
+}
+
+.column h3 {
+  text-align: center;
+  color: black; /* Заголовки колонок черные */
+}
+
+.task-board-title {
+  background-color: black; /* Фон заголовка черный */
+  color: white; /* Цвет текста заголовка белый */
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Отступ снизу для разделения с кнопками фильтра */
+}
+
+.task-item {
+  background-color: black; /* Фон задач теперь черный */
+  color: white; /* Текст задач белый */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.task-item:active {
+  cursor: grabbing;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+.empty-message {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}
+.delete-button {
+    background-color: white;
+    color: black; 
+    border: none; /* Убираем рамку */
+    padding: 5px 10px; /* Отступы */
+    margin-left: 10px; /* Отступ слева */
+    cursor: pointer; /* Указатель при наведении */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.delete-button:hover {
+    background-color: darkred; /* Темнее при наведении */
+}

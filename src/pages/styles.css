@@ -1,0 +1,61 @@
+/* styles.css */
+/* styles.css */
+h1 {
+  color: black; /* Устанавливаем цвет текста заголовка в черный */
+}
+body {
+  margin: 0; /* Убираем отступы по умолчанию */
+  height: 100vh; /* Занимаем всю высоту экрана */
+  display: flex; /* Используем flexbox для центрирования */
+  align-items: center; /* Центрируем по вертикали */
+  justify-content: center; /* Центрируем по горизонтали */
+  text-align: center; /* Центрируем текст */
+  background-color: #f0f0f0; /* Цвет фона для лучшего контраста */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  align-items: center; /* Центрируем элементы внутри контейнера */
+  justify-content: center; /* Центрируем элементы внутри контейнера */
+  padding: 20px; /* Отступы внутри контейнера */
+  background-color: white; /* Цвет фона контейнера */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0; /* Отступы между задачами */
+}
+
+.todo-checkbox {
+  width: 20px; /* Ширина квадратика */
+  height: 20px; /* Высота квадратика */
+  border: 2px solid black; /* Черная рамка */
+  margin-right: 10px; /* Отступ между квадратиком и текстом */
+  cursor: pointer; /* Указатель при наведении */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* Цвет фона квадратика */
+}
+
+.todo-checkbox.checked {
+  background-color: black; /* Цвет фона при выполнении */
+}
+
+.todo-text {
+  color: black; /* Устанавливаем цвет текста задач в черный */
+  margin-left: 10px; /* Отступ между квадратиком и текстом */
+}
+/* styles.css */
+nav a {
+    color: black; /* Устанавливаем черный цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Делаем текст жирным */
+}
+
+nav a:hover {
+    color: darkgray; /* Цвет при наведении */
+}
